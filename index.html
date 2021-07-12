@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СофтМажор</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class='header'> <!-- шапка страницы с навигацией-меню, контактами и слайдером -->
+        <div class="header-wrapper">
+
+            <div class="logo">
+                <div class="logo-img">
+                    <a href="#"><img src="icon/logo.png" alt="logo"></a>
+                </div>
+                <div class="logo-title">
+                    <div class='logo-title-big'>ABC Logistics</div>
+                    <h1 class='logo-title-little'>логистическая компания</h1>
+                </div>
+            </div>
+
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#">О компании</a></li>
+                    <li class="menu-item"><a href="#">Услуги</a></li>
+                    <li class="menu-item"><a href="#">Тарифы</a></li>
+                    <li class="menu-item"><a href="#">Партнерам</a></li>
+                    <li class="menu-item"><a href="#">Новости</a></li>
+                    <li class="menu-item"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-contacts">
+                <div class="header-contacts-phone">
+                    <a href="tel:+73439998877">+7 (343) 999-88-77</a>
+                </div>
+                <div class="header-contacts-order">
+                    <button class='button' data-modal="consultation">
+                        <a href="#"><img src="icon/phone_icon.svg" alt="order-call"></a>
+                        <a href="#" class='header-contacts-call'>Заказать звонок</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider"> <!-- слайдер в шапке страницы -->
+            <div class="container-1100">
+                <div class="slider-inner">
+                    <div class="slider-item">
+                        <img src="img/slide1.jpg" alt="slide1">
+                        <h2 class="slider-title">
+                            <a href="#">Контейнерные грузоперевозки</a>
+                        </h2>
+                    </div>
+                    <div class="slider-item">
+                        <img src="img/slide2.jpg" alt="slide2">
+                        <h2 class="slider-title">
+                            <a href="#">Железнодорожные перевозки</a>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="slider-btns">
+                    <button type="button" class="prev">
+                        <i class="fa fa-chevron-left fa-lg"></i>
+                    </button>
+    
+                    <button type="button" class="next">
+                        <i class="fa fa-chevron-right fa-lg"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <div class="advantages"> <!-- раздел с преимуществами компании -->
+        <div class="container-1280">
+            <div class="advantages-items">
+                <div class="advantages-item">
+                    <img src="icon/icon1_1.png" alt="advantage">
+                    <div class='advantages-descr advantages-descr-first'>Доставляем точно в срок</div>
+                </div>
+                <div class="advantages-item">
+                    <img src="icon/icon2_2.png" alt="advantage">
+                    <div class='advantages-descr'>Работаем <br> по всей России</div>
+                </div>
+                <div class="advantages-item">
+                    <img src="icon/icon3_3.png" alt="advantage">
+                    <div class='advantages-descr'>Доставляем грузы от 1 кг</div>
+                </div>
+                <div class="advantages-item">
+                    <img src="icon/icon4_4.png" alt="advantage">
+                    <div class='advantages-descr'>Отслеживание груза Online</div>
+                </div>
+                <div class="advantages-item">
+                    <img src="icon/icon5_5.png" alt="advantage">
+                    <div class='advantages-descr'>Выгодные тарифные планы</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="price"> <!-- раздел с ценами на перевозку -->
+        <div class="container-1100">
+            <div class="price-wrapper">
+                <div class="price-logo">
+                    <img src="icon/bg_logo.png" alt="logo">
+                </div>
+                <h3 class="price-title">
+                    Стоимость перевозки
+                </h3>
+
+                <div class="price-table">
+                    <div class="price-column">
+                        <div class="price-header">Город<br> назначения</div>
+                        <div class="price-item">г. Иркутск</div>
+                        <div class="price-item">г. Красноярск</div>
+                        <div class="price-item">г. Чита</div>
+                        <div class="price-item">г. Благовещенск</div>
+                        <div class="price-item">г. Хабаровск</div>
+                        <div class="price-item">г. Владивосток</div>
+                    </div>
+
+                    <div class="price-column">
+                        <div class="price-header">Контейнер<br> 20 футов</div>
+                        <div class="price-item">50 000 руб.</div>
+                        <div class="price-item">63 000 руб.</div>
+                        <div class="price-item">84 000 руб.</div>
+                        <div class="price-item">99 000 руб.</div>
+                        <div class="price-item">105 000 руб.</div>
+                        <div class="price-item">130 000 руб.</div>
+                    </div>
+
+                    <div class="price-column">
+                        <div class="price-header">Контейнер<br> 40 футов</div>
+                        <div class="price-item">65 000 руб.</div>
+                        <div class="price-item">71 000 руб.</div>
+                        <div class="price-item">95 000 руб.</div>
+                        <div class="price-item">110 000 руб.</div>
+                        <div class="price-item">115 000 руб.</div>
+                        <div class="price-item">141 000 руб.</div>
+                    </div>
+
+                    <div class="price-column">
+                        <div class="price-header">Контейнер<br> 45 футов</div>
+                        <div class="price-item">72 000 руб.</div>
+                        <div class="price-item">75 000 руб.</div>
+                        <div class="price-item">105 000 руб.</div>
+                        <div class="price-item">117 000 руб.</div>
+                        <div class="price-item">121 000 руб.</div>
+                        <div class="price-item">149 000 руб.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="products">  <!-- раздел с товарами (каталог) -->
+        <div class="container-1280">
+            <div class="products-wrapper">
+                <div class="product"> <!-- карточка товара внутри каталога -->
+                    <div class="product-img">
+                        <a href="#"><img src="img/item1.jpg" alt="product"></a> <!-- ссылка на страницу товара (при наличии) -->
+                    </div>
+                    <div class="product-title">
+                        20 футов
+                    </div>
+                    <div class="product-descr">
+                        Контейнер со стандартной двустворчатой дверью
+                    </div>
+                </div>
+
+                <div class="product"> <!-- карточка товара внутри каталога -->
+                    <div class="product-img">
+                        <img src="img/item2.jpg" alt="product">
+                    </div>
+                    <div class="product-title">
+                        40 футов
+                    </div>
+                    <div class="product-descr">
+                        Стандартный 40-футовый контейнер
+                    </div>
+                </div>
+
+                <div class="product"> <!-- карточка товара внутри каталога -->
+                    <div class="product-img">
+                        <img src="img/item3.jpg" alt="product">
+                    </div>
+                    <div class="product-title">
+                        45 футов
+                    </div>
+                    <div class="product-descr">
+                        Морской контейнер 45 футов
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/item4.jpg" alt="product">
+                    </div>
+                    <div class="product-title">
+                        Open top
+                    </div>
+                    <div class="product-descr">
+                        Открытый контейнер с мягкой съемной крышей
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/item5.jpg" alt="product">
+                    </div>
+                    <div class="product-title">
+                        Flat rack
+                    </div>
+                    <div class="product-descr">
+                        Контейнер-платформа без стенок и крыши
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <div class="container-1100">
+            <h4 class="title">Свяжитесь с нами</h4>
+            <form class="feed-form" id="contact-form" action="#">
+                <div class="form-wrapper">
+                    <input name="name" required placeholder="Ваше имя*" type="text">
+                    <input name="phone" required placeholder="Телефон*">
+                    <input name="email" placeholder="E-mail" type="email">
+                </div>
+                <textarea name="message" required placeholder="Сообщение*"></textarea>
+
+                <div class="contact-form-triggers">
+                    <div class="contact-form-policy">
+                        <input name="checkbox" required type="checkbox"> 
+                        <span>Нажимая кнопку "Отправить" я соглашаюсь с <a href="policy.html">Политикой защиты и обработки персональных данных</a></span>
+                    </div>
+                    <button class="button button-orange" type='submit'>Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+
+    
+        <div class="contacts">
+            <div class="container-1280">
+                    <h4 class='title'>Контакты</h4>
+
+                    <div class="contacts-address">
+                        <div class="subtitle">Наш офис</div>
+                        <address>Россия, 620014, Екатеринбург ул. Маршала Жукова, 10</address>
+                    </div>
+
+                    <div class="contacts-phone-mail">
+                        <div class="subtitle">Вы можете связаться с нами</div>
+                        <div class="contacts-wrapper">
+                            <div class="contacts-phone">
+                                T: <a href="tel:+78005553535">8 (800) 555-35-35</a>
+                            </div>
+                            <div class="contacts-mail">
+                                @: <a href="mailto:example@mail.com">example@mail.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class='button button-orange' data-modal="consultation">Заказать звонок</button>
+            
+
+
+
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d545.5526287643193!2d60.58520182925953!3d56.84233283231399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c16e5fcd1f1659%3A0x78a4dc4b987eef49!2z0YPQuy4g0JzQsNGA0YjQsNC70LAg0JbRg9C60L7QstCwLCAxMCwg0JXQutCw0YLQtdGA0LjQvdCx0YPRgNCzLCDQodCy0LXRgNC00LvQvtCy0YHQutCw0Y8g0L7QsdC7LiwgNjIwMDc3!5e0!3m2!1sru!2sru!4v1626059699548!5m2!1sru!2sru" width="960" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+
+        
+    
+
+
+
+    <div class="footer">
+        <div class="container-1280">
+            <div class="footer-wrapper">
+                <div class="logo">
+                    <div class="logo-img">
+                        <a href="#"><img src="icon/logo_footer.png" alt="logo"></a>
+                    </div>
+                    <div class="logo-title">
+                        <div class='logo-title-big'>ABC Logistics</div>
+                        <h1 class='logo-title-little'>логистическая компания</h1>
+                    </div>
+                </div>
+
+                <div class="footer-wrapper2">
+                    <div class='copyright'>© 2018 ABC Logistics. Все права защищены</div>
+
+                    <div class="footer-wrapper3">
+                        <div class="policy"><a href="policy.html">Политика конфиденциальности</a></div>
+
+                        <div class="sitemap"><a href="#">Карта сайта</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Заполните форму заявки</div>
+            <div class="modal__descr">и мы перезвоним Вам в течение 10 минут</div>
+            <form class="feed-form" id="modal-form" action="#">
+                <input name="name" required placeholder="Ваше имя*" type="text">
+                <input name="phone" required placeholder="Ваш телефон*">
+                <input name="email" placeholder="Ваш e-mail" type="email">
+                <button class="button button-orange" type='submit'>Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> <!-- скрипт для слайдера -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <!-- скрипт для подключения jQuery -->
+    <script src="js/jquery.validate.min.js"></script> <!-- скрипт для валидации форм -->
+    <script src='js/jquery.maskedinput.min.js'></script> <!-- скрипт для маски ввода номера -->
+    <script src="js/script.js"></script>
+</body>
+</html>
